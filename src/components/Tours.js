@@ -17,7 +17,7 @@ export default function Tours({ tours, removeTour }) {
                     }
                     return (
                         <Card
-                            key="tour.id"
+                            key={tour.id}
                             {...tour}
                             removeTour={removeTour}
                         ></Card>
